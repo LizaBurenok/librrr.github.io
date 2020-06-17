@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'Avenir Next';
+  src: url("http://www.yoursite.com/fonts/Avenir_Next.otf"); /* File to be stored at your site */
+  }
+
+* {
+  font-family: 'Avenir Next'
+}
+body{
+  background-color: #1C3144!important;
+  width: 100% !important;
+}
+
+.left_side{
+  width: 87%;
+  background-color: ;
+  height: 98%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left_side img{
+  transform: scale(.44)
+}
+ /*Footer*/
+ .footer{
+   background-color: #FFFAF4;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 88.6%;
+   height: 8%;
+   transform: translateY(-230%);
+ }
+
+ .footer_adress{
+     transform: translateX(15%);
+ }
+
+ .footer_info{
+   transform: translateX(-25%);
+ }
+
+ .footer_socialnetwork{
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+   width: 4%;
+   transform: translateX(-55%);
+ }

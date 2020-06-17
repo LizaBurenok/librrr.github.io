@@ -1,0 +1,265 @@
+body{
+  background-color: #1C3144 !important;
+}
+.section_menu_wrapper{
+  height: 88% !important;
+}
+
+span{
+  font-family: 'Helvetica'
+}
+.footer{
+  background-color: #FFFAF4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 88.6%;
+  height: 8%;
+  transform: translateY(-200%);
+}
+
+.left_side{
+  width: 89%;
+  height: 98%;
+  display: flex;
+  align-items: center;
+  background-color: #1C3144;
+}
+
+.book_shelf{
+  display: flex;
+  align-items: center;;
+  justify-content: center;
+  border: 1px solid #FFFAF4;
+  transform: translateX(2%) translateY(4%) scale(.95);
+}
+
+.shelf{
+  width: 76%;
+  height: 65%;
+  position: absolute;
+  border: 1px solid #FFFAF4;
+  transform: translateY(19%);
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/*ОБЛОЖКИ*/
+.book{
+	width: 11vw;
+	height: 13vw;
+	margin-right: 6em;
+transform: translateY(10%);}
+
+/*ОБЛОЖКИ*/
+.animal{
+	background-color: #003fac;
+	left: 87.3%;
+}
+
+.animal span{
+	font-size: 1.4vw;
+	color: #f9f4ff;
+}
+
+.drak{
+	background-color: #221712;
+	left: 73.05%;
+}
+
+.drak img{
+	transform: translateY(0.1vw) translateX(0.2vw);
+}
+
+.silent_lamb{
+	background-color: #003fac;
+	left: 16%;
+}
+
+.silent_lamb img{
+	transform: translateY(3.8vw) translateX(0.5vw);
+}
+
+
+.war_peace{
+left: 11%;
+}
+
+.war_peace_first{
+	background-color: #f9f4ff;
+	width: 100%;
+	height: 50%;
+}
+
+.war_peace_second{
+	background-color: #003fac;
+	width: 100%;
+	height: 50%;
+}
+
+.war_peace_img{
+	position: absolute;
+	top: 1%;
+	left: 19%;
+}
+
+.storytell{
+	background-color: #ba1200;
+	left: 87.2%;
+}
+
+
+.shine_wrap{
+	background-color: #f9f4ff;
+	left: 87.3%;
+}
+
+.shine_wrap span{
+	font-size: 1.8vw;
+	font-family: 'Helvetica', sans-serif;
+	z-index: 2;
+	transform: translateX(0.16vw) translateY(-0.5vw);
+}
+
+.door{
+	background-color: #ba1200;
+	z-index: 2;
+	width: 8.5vw;
+	height: 11vw;
+	transform: translateY(0vw) translateX(1.25vw);
+}
+
+.door_hand{
+	width: 1.5vw;
+	height: 1.5vw;
+	border-radius: 50%;
+	background-color: #221712;
+	transform: translateY(5vw) translateX(-0.5vw);
+}
+
+.animal_mask1{
+	position: absolute;
+	transform: translateY(30%) translateX(50%);
+}
+
+.footer_adress{
+   transform: translateX(15%);
+}
+
+.footer_info{
+ transform: translateX(-25%);
+}
+
+.footer_socialnetwork{
+ display: flex;
+ justify-content: space-between;
+ flex-direction: row;
+ width: 4%;
+ transform: translateX(-55%);
+}
+
+
+@media (min-width: 1500px) and (max-width: 1680px){
+	.book{
+		transform: translateX(25%);
+		height: 50%;
+	}
+
+	.door{
+		height: 100%;
+	}
+
+	.animal_mask1{
+		transform: scale(1.3) translateX(50%) translateY(30%);
+	}
+
+	.story_cover{
+		height: 80%;
+		transform: scale(1.18) translateX(6%) translateY(8%)
+	}
+
+	.drak_cover{
+		transform: scale(1.)
+	}
+
+	.war_peace_img{
+		transform: scale(1.2) translateX(6%) translateY(12%)
+	}
+
+	.drak img{
+		height: 82%;
+		transform: scale(1.18) translateX(9%) translateY(10%)
+	}
+
+	.silent_lamb img{
+		height: 60%;
+		transform: translateX(15%) translateY(40%);
+}
+
+.menu_line{
+    transform: scale(1.3) translateX(90%)
+  }
+
+  .lift_menu{
+    transform: scale(1.4) translateX(4%);
+  }
+}
+
+@media (min-width: 1020px) and (max-width: 1280px){
+	.book{
+		transform: scale(1.1) translateX(40%) translateY(4%);
+	}
+
+	.silent_lamb img{
+		height: 70%;
+	}
+
+	.war_peace_img{
+		transform: scale(.7) translateY(-20%) translateX(-20%)
+	}
+
+	.animal_mask1{
+		transform: scale(.7) translateX(30%)
+	}
+
+	.menu_line{
+		transform: translateX(-30%)
+	}
+
+	.lift_menu{
+		transform: translateX(20%)
+	}
+}
+
+@media (min-width: 760px) and (max-width: 1023px){
+	.shelf{
+		width: 90%;
+	}
+	.book{
+		transform: scale(1.1) translateY(4%) translateX(50%);
+	}
+	.war_peace_img{
+		transform: scale(.7) translateX(-20%) translateY(-26%)
+	}
+
+	.animal_mask1{
+		transform: scale(.6) translateX(10%)
+	}
+
+	.footer_adress{
+		width: 30%;
+	}
+
+	.footer_info{
+		width: 30%;
+	}
+
+	.menu_line{
+		transform: translateX(-90%)
+	}
+
+	.lift_menu{
+		transform: translateX(30%)
+	}
+}

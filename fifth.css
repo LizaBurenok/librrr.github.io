@@ -1,0 +1,815 @@
+.book_shelf{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform:scale(.72) translateX(1%);
+  top: 2%;
+}
+
+.btnrow{
+  width: 2%;
+  position: absolute;
+}
+
+.menu{
+  z-index: 900 !important;
+}
+
+.cross{
+  z-index: 900 !important;
+}
+
+.top_part{
+ z-index: 900 !important;
+ transform: translateY(25%);
+}
+
+.menu_list{
+ z-index: 900 !important;
+ position: absolute;
+ background-color: #000;
+}
+
+.top_part{
+  transform: translateY(25%);
+}
+
+.shelf{
+  width: 50%;
+  height: 55%;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  top: 22%;
+}
+
+/*ОБЛОЖКИ*/
+.book{
+width: 11vw;
+height: 13vw;
+margin-right: 6em;
+transform: translateY(15%) scale(1.13) translateX(42%);}
+
+.book:hover {
+	border: 2px solid #fff;
+}
+
+  .master{
+  	background-color: #ba1200;
+    position: relative;
+    top: -40%;
+  }
+
+  .master span{
+  	font-size: 1.112vw;
+    font-family: 'Helvetica';
+  	color: #fff;
+  	transform: translateY(-20%);
+  }
+
+  .cube{
+  	width: 6.5vw;
+  	height: 6.5vw;
+  	border-radius: 10%;
+  }
+
+  .master_first{
+  	background-color: rgba(255, 255, 255, .5);
+  	transform: translateY(15%) scale(.9);
+  }
+
+  .master_second{
+  	background-color: rgba(252, 255, 244, .3);
+  	transform: translateX(68%) scale(.9) translateY(-20%);
+  }
+
+  .da_vinci{
+  	background-color: #003fac;
+    position: relative;
+    bottom: 40%;
+    left: 13.5%;
+  }
+
+  .hidden_x{
+  	font-family: 'Helvetica', sans-serif;
+  	font-size: 1.5vw;
+  	text-align: center;
+  	margin-top: 50%;
+  	opacity: 0;
+  }
+
+  .da_vinci span{
+  	font-size: 1.5vw;
+  	color: #fff;
+    font-family: 'Helvetica';
+    margin-left: 10px;
+  }
+  .da_vinci_wrapper{
+  	width: 80%;
+  	display: flex;
+  	justify-content: space-between;
+  	align-items: center;
+    transform: translateY(105%) translateX(12%);
+  }
+  .da_vinci_block{
+  	width: 2vw;
+  	height: 3vw;
+  	background-color: #f9f4ff;
+  	border-radius: 10%;
+  }
+
+
+  .player{
+  	background-color: #003fac;
+  	display: flex;
+  	justify-content: flex-end;
+  	align-items: flex-end;
+  	position: relative;
+    left: -32%;
+    bottom: 29%;
+  }
+
+  .player span{
+  	position: absolute;
+  	top: -7%;
+  	font-size: 3.5vw;
+    transform: translateX(-10%);
+  	color: #ba1200;
+    font-family: 'Helvetica';
+  }
+
+  .plus_one{
+  	background-color: #003fac;
+  	position: relative;
+    left: 45.5%;
+    bottom: 29%;
+  }
+
+  .plus_one span{
+  	font-size: 8vw;
+  	color: #ba1200;
+  	position: absolute;
+  	left: 20%;
+    font-family: 'Helvetica';
+  }
+
+  .plus_one img{
+  	position: absolute;
+  	right: 25%;
+  	bottom: 5%;
+  }
+
+  .wheel_img img{
+  	transform: translateX(40%) translateY(1vw) scale(.8);
+  	transform-origin: 50% 50%;
+  }
+
+  .chess_game{
+  	background-color: #003fac;
+  	left: 44.45%;
+    position: relative;
+    left: 13.5%;
+    bottom: 18%;
+  }
+
+  .horse_chess{
+  	position: absolute;
+  	z-index: 4;
+  	top: 75%;
+  	left: 5%;
+  	opacity: 0;
+  }
+
+  .chess_cover{
+  	transform: translateY(-0.5vw);
+  }
+
+
+  .white_princess{
+  	background-color: #ba1200;
+  	overflow: hidden;
+  	position: relative;
+    left: 32%;
+    bottom: 67;
+  }
+
+  .white_princess span{
+  	color: #fff;
+  	font-size: 1.2vw;
+    font-family: 'Helvetica';
+  }
+  .apple{
+  	background-color: #003fac;
+  	border-radius: 50%;
+  	width: 6.5vw;
+  	height: 6.5vw;
+  	position: absolute;
+  	bottom: -7%;
+  	left: -10%;
+  }
+
+  .apple_piece{
+  	width: 0;
+  	height: 0;
+  	border-left: 1.2vw solid transparent;
+  	border-right: 1.2vw solid transparent;
+  	border-bottom: 2.4vw solid #aa6400;
+  	transform: rotate(230deg) translateX(-90%) translateY(150%);
+  }
+
+
+
+  .animal{
+  	background-color: #003fac;
+  	left: 87.3%;
+    position: relative;
+    left: 13.8%;
+    bottom: 18%;
+  }
+
+  .animal span{
+  	font-size: 1.4vw;
+  	color: #f9f4ff;
+  }
+
+  .drak{
+  	background-color: #221712;
+    position: relative;
+    bottom: 238%;
+    right: 18%;
+  }
+
+  .drak img{
+  	transform: translateY(0.1vw) translateX(0.2vw);
+  }
+
+  .silent_lamb{
+  	background-color: #003fac;
+    bottom: 177%;
+    position: relative;
+  }
+
+  .silent_lamb img{
+  	transform: translateY(3.8vw) translateX(0.5vw);
+  }
+
+  .storytell{
+  	background-color: #ba1200;
+  	left: 13.5%;
+    position: relative;
+    bottom: 127.8%;
+  }
+
+
+  .shine_wrap{
+  	background-color: #f9f4ff;
+  	left: -32%;
+    bottom: 67%;
+    position: relative;
+  }
+
+  .shine_wrap span{
+  	font-size: 1.8vw;
+    color: #000;
+  	font-family: 'Helvetica', sans-serif;
+  	z-index: 2;
+  	transform: translateX(0.16vw) translateY(-0.5vw);
+  }
+
+  .door{
+  	background-color: #ba1200;
+  	z-index: 2;
+  	width: 8.5vw;
+  	height: 11vw;
+  	transform: translateY(0vw) translateX(1.25vw);
+  }
+
+  .door_hand{
+  	width: 1.5vw;
+  	height: 1.5vw;
+  	border-radius: 50%;
+  	background-color: #221712;
+  	transform: translateY(5vw) translateX(-0.5vw);
+  }
+
+  .animal_mask1{
+  	position: absolute;
+  	transform: translateY(30%) translateX(50%);
+  }
+
+  .bookblock{
+    width: 14vw;
+    height: 14vw;
+    margin-right: 6em;
+    transform: translateY(15%) scale(1.13) translateX(42%);
+    background-color: white;
+    position: absolute;
+    visibility: hidden;
+  }
+
+  .block_two{
+    right: -38.2%;
+    top: 15.4%;
+    height: 14.4vw;
+  }
+
+  .block_one{
+    right: -6.3%;
+    top: 16.2%;
+  }
+
+  .block_three{
+    right: 57.3%;
+    top: 15.4%;
+    height: 14.4vw;
+  }
+
+  .block_four{
+    top: 15.4%;
+    height: 14.4vw;
+    right: 89%;
+  }
+
+  .block_five{
+    top: 76.6%;
+    right: 89%;
+  }
+
+  .block_six{
+    top: 77.2%;
+    right: 25.5%;
+  }
+
+  .block_seven{
+    top: 77%;
+    right: -6.4%;
+  }
+
+  .block_eight, .block_nine, .block_ten{
+    top: -44.6%;
+  }
+
+  .block_eight{
+    right: -6.4%;
+  }
+
+  .block_nine{
+    left: 1.5%;
+  }
+
+  .block_ten{
+    left: 33.3%;
+  }
+
+  @media (min-width: 1600px) and (max-width: 1680px){
+  body, html, .main_page{
+    width: 1680px;
+  }
+
+  .menu_name{
+    right: 2%;
+  }
+
+  .top_part span{
+    font-size: 36px;
+  }
+
+  .top_part{
+    transform: scale(.97) translateX(1%) tra;
+  }
+
+  footer.footer{
+    position: absolute;
+    transform: scale(1.2);
+    right: 20%;
+    bottom: 1%;
+  }
+
+  .book_img{
+    transform: scale(1.3) translateY(20%)
+  }
+
+  .book{
+    transform: scale(1.3)
+  }
+
+  .player, .shine_wrap{
+    transform: translateY(72%) scale(1.3) translateX(-15%)
+  }
+
+  .silent_lamb{
+    transform: translateY(28%) scale(1.3) translateX(13%)
+  }
+
+  .white_princess{
+   transform: translateY(90%) scale(1.3) translateX(40%)
+  }
+
+  .animal{
+   transform: translateY(90%) scale(1.3) translateX(70%)
+  }
+
+  .storytell{
+    transform: translateY(43%) scale(1.3) translateX(70%)
+  }
+
+  .da_vinci{
+    transform: translateY(53%) scale(1.3) translateX(70%)
+  }
+
+  .master{
+    transform: translateY(54%) scale(1.3) translateX(12%)
+  }
+
+  .plus_one{
+    transform: translateY(72%) scale(1.3) translateX(97%)
+  }
+
+  .drak{
+    transform: translateY(-5%) scale(1.3) translateX(40%)
+  }
+
+  .drak_cover{
+    width: 100%
+  }
+
+  .story_cover{
+    width: 100%
+  }
+}
+@media (min-width: 1280px) and (max-width: 1320px){
+  .footer{
+    transform: scale(1.5) translateX(-20%)
+  }
+
+  .top_part span{
+    font-size: 30px;
+  }
+
+  .book_img{
+    transform: scale(1.07) translateY(40%)
+  }
+
+  .player{
+    transform: translateY(178%) scale(1.3) translateX(25%)
+  }
+
+  .shine_wrap{
+    transform: translateY(189%) scale(1.3) translateX(25%)
+  }
+
+  .silent_lamb{
+    transform: translateY(183%) scale(1.3) translateX(33%)
+  }
+
+  .white_princess{
+   transform: translateY(190%) scale(1.3) translateX(40%)
+  }
+
+  .animal{
+   transform: translateY(55%) scale(1.3) translateX(50%)
+  }
+
+  .storytell{
+    transform: translateY(46%) scale(1.3) translateX(50%)
+  }
+
+  .da_vinci{
+    transform: translateY(432%) scale(1.3) translateX(52%)
+  }
+
+  .master{
+    transform: translateY(165%) scale(1.3) translateX(34%)
+  }
+
+  .plus_one{
+    transform: translateY(176%) scale(1.3) translateX(58%)
+  }
+
+  .drak{
+    transform: translateY(172%) scale(1.3) translateX(40%)
+  }
+
+  .drak_cover{
+    width: 100%
+  }
+
+  .story_cover{
+    width: 100%
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px){
+  .row_menu{
+    transform: translateY(2%) translateX(17%);
+  }
+
+  .top_part span{
+    font-size: 33px
+  }
+
+  .note_wrap{
+    font-size: 25px;
+    transform: translateX(32%) translateY(250%);
+  }
+
+  footer.footer{
+   position: absolute;
+   width: 50%;
+   transform: scale(1.2) translateY(-4%);
+  }
+
+ .menu_name{
+    width: 40px;
+    position: absolute;
+    right: 20%;
+  }
+
+  .navigation{
+    transform: translateX(-20%)
+  }
+
+  .book_img{
+    transform: scale(1.07) translateY(40%)
+  }
+
+  .player{
+    transform: translateY(178%) scale(1.3) translateX(32%)
+  }
+
+  .shine_wrap{
+    transform: translateY(189%) scale(1.3) translateX(32%)
+  }
+
+  .silent_lamb{
+    transform: translateY(180%) scale(1.3) translateX(40%)
+  }
+
+  .white_princess{
+   transform: translateY(200%) scale(1.3) translateX(50%)
+  }
+
+  .animal{
+   transform: translateY(52%) scale(1.3) translateX(58%)
+  }
+
+  .animal_mask1{
+    transform: scale(.8) translateX(30%)
+  }
+
+  .plus_one img{
+    transform: scale(.8) translateY(20%) translateX(17%)
+  }
+
+  .wheel_img{
+    transform: scale(.8);
+    top: 95%;
+    position: relative;
+    left: 25%
+
+  }
+
+  .storytell{
+    transform: translateY(48%) scale(1.3) translateX(58%)
+  }
+
+  .da_vinci{
+    transform: translateY(433%) scale(1.3) translateX(58%)
+  }
+
+  .master{
+    transform: translateY(166%) scale(1.3) translateX(40%)
+  }
+
+  .plus_one{
+    transform: translateY(175%) scale(1.3) translateX(64%)
+  }
+
+  .drak{
+    transform: translateY(172%) scale(1.3) translateX(48%)
+  }
+
+  .drak_cover{
+    width: 100%
+  }
+
+  .story_cover{
+    width: 100%
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+  .top_part{
+    top: 4%
+  }
+
+  .row_menu{
+    transform: translateY(3.4%) translateX(20%)
+  }
+
+  .menu_name{
+    width: 10px;
+    position: absolute;
+    right: 30%
+
+  }
+
+  div.menu_name{
+    font-size: 23px;
+  }
+
+  footer.footer{
+   width: 70%;
+   transform: scale(1.46) translateY(60%) translateX(0.5%)
+  }
+
+  .navigation{
+    transform: translateX(-40%)
+  }
+
+  .crossimg{
+    transform: translateX(-30%) translateY(50%)
+  }
+
+.book_img{
+    transform: scale(1.07) translateY(40%)
+  }
+
+  .player{
+    transform: translateY(174%) scale(1.3) translateX(44%)
+  }
+
+  .shine_wrap{
+    transform: translateY(190%) scale(1.3) translateX(44%)
+  }
+
+  .silent_lamb{
+    transform: translateY(180%) scale(1.3) translateX(55%)
+  }
+
+  .white_princess{
+   transform: translateY(218%) scale(1.3) translateX(60%)
+  }
+
+  .animal{
+   transform: translateY(52%) scale(1.3) translateX(68%)
+  }
+
+  .animal_mask1{
+    transform: scale(.6) translateX(10%) translateY(-15%)
+  }
+
+  .plus_one img{
+    transform: scale(.7) translateY(20%) translateX(17%)
+  }
+
+  .wheel_img{
+    transform: scale(.8);
+    top: 95%;
+    position: relative;
+    left: 25%
+
+  }
+
+  .storytell{
+    transform: translateY(48%) scale(1.3) translateX(68%)
+  }
+
+  .da_vinci{
+    transform: translateY(436%) scale(1.3) translateX(68%)
+  }
+
+  .master{
+    transform: translateY(166%) scale(1.3) translateX(55%)
+  }
+
+  .plus_one{
+    transform: translateY(175%) scale(1.3) translateX(74%)
+  }
+
+  .drak{
+    transform: translateY(170%) scale(1.3) translateX(60%)
+  }
+
+  .drak_cover{
+    width: 100%
+  }
+
+  .story_cover{
+    width: 100%
+  }
+  .book_shelf{
+    transform: scale(1) translateY(40%) translateX(3.5%)
+  }
+}
+
+@media (min-width: 375px) and (max-width: 700px){
+  body, .main_page, html{
+    width: 100%;
+  }
+  .top_part{
+    width: 100%;
+  }
+
+  .row_menu{
+    position: absolute;
+    left: 86%;
+  }
+
+  .menu_name{
+    position: absolute;
+    left: -100%;
+    font-size: 15px;
+    width: 10%
+  }
+
+  div.menu_name{
+    font-size: 15px;
+    top: 5%;
+    font-weight: bold;
+  }
+
+  footer.footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  }
+
+  .footer_adress{
+    width: 30%;
+    font-size: 10px;
+    line-height: 1
+  }
+
+  .book_shelf{
+    position: absolute;
+    transform: scale(1.9) rotate(-90deg) translateX(-44%) translateY(2%)
+  }
+
+  .player{
+    transform: translateY(-80%) scale(1.2) translateX(15%)
+  }
+
+  .shine_wrap{
+    transform: translateY(-275%) scale(1.2) translateX(14%)
+  }
+
+  .silent_lamb{
+    transform: translateY(-240%) scale(1.2) translateX(268%)
+  }
+
+  .white_princess{
+   transform: translateY(-203%) scale(1.2) translateX(140%)
+  }
+
+  .animal{
+   transform: translateY(-275%) scale(1.2) translateX(85%)
+  }
+
+  .animal_mask1{
+    transform: scale(.6) translateX(10%) translateY(-15%)
+  }
+
+  .plus_one img{
+    transform: scale(.7) translateY(20%) translateX(17%)
+  }
+
+  .wheel_img{
+    transform: scale(.8);
+    top: 95%;
+    position: relative;
+    left: 25%
+
+  }
+
+  .storytell{
+    transform: translateY(-500%) scale(1.2) translateX(84%)
+  }
+
+  .da_vinci{
+    transform: translateY(40%) scale(1.2) translateX(340%)
+  }
+
+  .master{
+    transform: translateY(16%) scale(1.2) translateX(13%)
+  }
+
+  .plus_one{
+    transform: translateY(-310%) scale(1.2) translateX(86%)
+  }
+
+  .drak{
+    transform: translateY(-343%) scale(1.17) translateX(86%)
+  }
+
+  .drak_cover{
+    width: 100%
+  }
+
+  .story_cover{
+    width: 100%
+  }
+}

@@ -1,0 +1,147 @@
+@font-face {
+  font-family: 'Avenir Next';
+  src: url("http://www.yoursite.com/fonts/Avenir_Next.otf"); /* File to be stored at your site */
+  }
+  *{
+    font-family: "Avenir Next" !important;
+  }
+body{
+  background-color: #000 !important;
+  overflow: hidden !important;
+  margin: 0;
+}
+
+span {
+  color: #fff;
+}
+
+span:hover{
+  color: #DEDDDB;
+  text-decoration: line-through;
+}
+
+.navigation{
+ z-index: 900 !important;
+ position: absolute;
+ width: 80%;
+ height: 740%;
+ background-color: #000;
+}
+
+.top_part{
+  display: flex;
+  width: 100%;
+  height: 10%;
+  justify-content: space-around;
+  font-size: 25px;
+  position: absolute;
+}
+.menu_list{
+  background-color: #000;
+  width: 30%;
+  height: 82%;
+  position: absolute;
+  display: none;
+  top: -0%
+}
+
+.menu_list.open{
+  display: inline-block;
+  transform: translateX(-20%);
+}
+
+.menu_list.close{
+  display: none;
+}
+
+.cross{
+  position: absolute;
+}
+
+.cross{
+  transform: translateY(215%);
+  display: none;
+}
+
+.crossimg:hover{
+  animation: flip 2s linear;
+  transform-origin: 50 50;
+}
+
+@keyframes flip {
+  0%{
+    transform: rotate(0%)
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+li, a{
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+.left_side{
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row_menu{
+  position: absolute;
+  top: 2%;
+  right: 10%;
+  width: 12%;
+  height: 90%;
+  display: flex;
+}
+
+.row_menu img{
+  position: absolute;
+  transform: scale(.4) translateY(-75%);
+}
+
+.menu_name{
+  color: #fff;
+  position: absolute;
+  font-size: 30px;
+  top: 4%;
+  transform: translateX(73%);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 40%;
+  position: absolute;
+  bottom: 0%;
+  color: #fff;
+  line-height: 1.2vw;
+  right: 14%;
+  font-size: 12px;
+  border: 1px solid white;
+  align-items: center;
+}
+
+.footer_socialnetwork{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.fb_img{
+  margin-right: 10px;
+  background-color: #fff;
+}
+
+.ig_img{
+  background-color: #fff;
+  border-radius: 40%;
+}

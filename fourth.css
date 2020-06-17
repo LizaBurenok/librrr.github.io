@@ -1,0 +1,410 @@
+.top_part{
+    transform: translateY(25%);
+  }
+
+  .navigation{
+   z-index: 900 !important;
+   position: absolute;
+   width: 80%;
+   height: 740%;
+   background-color: #000;
+  }
+
+  .top_part{
+   z-index: 900 !important;
+  }
+
+  .menu_list{
+   z-index: 900 !important;
+   position: absolute;
+   background-color: #000;
+  }
+
+  .menu{
+    z-index: 900 !important;
+  }
+
+  .menu_name{
+    right: 15% !important;
+  }
+
+  .cross{
+    z-index: 900 !important;
+  }
+
+
+.text{
+  width: 60%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.body_text{
+  font-size: 23px;
+  color: #1C3144;
+}
+
+.header{
+  color: #1C3144;
+  font-size: 35px;
+}
+.hiddenimg{
+  position: absolute;
+  transform: scale(.61);
+  top: 9%;
+  z-index: 35;
+  display: none;
+  right: 14%;
+  top: 6%;
+}
+
+
+.hiddenimg.open{
+  display: block;
+}
+.first_row, .second_row, .third_row, .fourth_row, .five_row{
+  width: 100%;
+  height: 17.4%;
+  display: flex;
+  flex-direction: row;
+  transform: translateY(30%);
+}
+
+.one, .two, .three, .four, .five{
+
+  border: 1px solid white;
+}
+
+.space_img{
+  position: absolute;
+  z-index: 5;
+  transform: scale(.5) translateX(-17%) translateY(2%);
+}
+.line_wrap{
+  width: 20%;
+  height: 50%;
+  right: 40%;
+  position: absolute;
+  top: -5%;
+}
+
+.path.close{
+  display: none;
+}
+.path_line{
+  top: 20%;
+  position: absolute;
+  width: 236%;
+  height: 184%;
+  z-index: 30;
+  transform: scale(.56);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.path{
+ stroke-dasharray: 1000;
+stroke-dashoffset: 0;
+animation: dash 3s ease-out alternate infinite;
+
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 1300;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/*TEXT ANIMATION*/
+
+.text_2{
+  width: 24%;
+  height: 50%;
+  position: absolute;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  transform: translateX(4%);
+  opacity: 0;
+  color:#fff;
+  font-size: 20px;
+  left: 18%;
+  top: 55%;
+  font-family: 'Avenir Next';
+  z-index: -10;
+}
+
+.text_1{
+  width: 34%;
+  height: 50%;
+  position: absolute;
+  font-size: 20px;
+  font-family: 'Avenir Next';
+  left: 17%;
+  color: #fff;
+  top: 35%;
+  z-index: -10;
+}
+
+.text_1 p{
+  width: 70%;
+  color:  #fff;
+  transform: translateX(5%) translateY(5%);
+}
+.btn{
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  transform: translateX(-1150%) translateY(800%);
+}
+
+p{
+  color: #ffff;
+}
+
+.row_line{
+  width: 30px;
+  position: absolute;
+  top: 27%;
+  left: 12%;
+  background-color: #000;
+}
+
+.btn:hover{
+  background-color: #ccc;
+}
+
+.row_line.longLine{
+  animation: long 0.4s linear;
+}
+
+@keyframes long {
+  0%{
+    width: 31px;
+  }
+  100%{
+   width: 370px;
+  }
+}
+
+.text.textBlock{
+    display: none;
+}
+
+.text_2.visivle{
+    animation: open 0.5s linear;
+    animation-delay: 0.8s;
+  transform-origin: 100% 50%;
+  animation-fill-mode: forwards;
+}
+
+@keyframes open {
+    0%{
+      transform: scaleX(0);
+      opacity: 1;
+    }
+    100%{
+        transform: scaleX(1);
+      opacity: 1;
+    }
+}
+
+.text_1.hidden {
+    animation: close 0.5s;
+    animation-fill-mode: forwards;
+   transform-origin: 100% 50%;
+   animation-delay: 0.3s;
+}
+
+@keyframes close {
+    0%{
+      transform: scaleX(1);
+      opacity: 1;
+    }
+    100%{
+        transform: scaleX(0);
+    }
+}
+
+@media (min-width: 1600px) and (max-width: 1680px){
+  body, html, .main_page{
+    width: 1680px;
+  }
+
+  .menu_name{
+    right: 2%;
+  }
+
+  .top_part span{
+    font-size: 36px;
+  }
+
+  .top_part{
+    transform: scale(.97) translateX(1%) tra;
+  }
+
+  footer.footer{
+    position: absolute;
+    transform: scale(1.2);
+    right: 20%;
+    bottom: 1%;
+  }
+
+  .btn{
+    top: 52%;
+    position: absolute;
+    transform: translateX(-1240%)
+  }
+
+  .hiddenimg{
+    transform: translateY(27%) scale(.55) translateX(-13%)
+  }
+
+  .text_2{
+    position: absolute;
+    top: 35%;
+  }
+
+}
+
+@media (min-width: 1280px) and (max-width: 1320px){
+  .footer{
+    transform: scale(1.5) translateX(-20%)
+  }
+
+  .top_part span{
+    font-size: 30px;
+  }
+
+  .path_line{
+    position: absolute;
+    top: 10%;
+  }
+
+  .btn{
+    position: absolute;
+    top: 58%;
+    transform: translateX(-970%)
+  }
+
+  .text_2{
+    position: absolute;
+    top: 35%;
+  }
+
+  .hiddenimg{
+    transform: translateY(15%) scale(.55) translateX(13%)
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px){
+  .row_menu{
+    transform: translateY(2%) translateX(17%);
+  }
+
+  .top_part span{
+    font-size: 33px
+  }
+
+  .note_wrap{
+    font-size: 25px;
+    transform: translateX(32%) translateY(250%);
+  }
+
+  footer.footer{
+   position: absolute;
+   width: 50%;
+   transform: scale(1.2) translateY(-4%);
+  }
+
+ .menu_name{
+    width: 40px;
+    position: absolute;
+    right: 20%;
+  }
+
+  .navigation{
+    transform: translateX(-20%)
+  }
+
+  .hiddenimg{
+    transform: scale(.5) translateX(30%)
+  }
+
+  .text_2{
+    position: absolute;
+    top: 35%;
+    left: 14%;
+    width: 30%
+  }
+
+  .btn{
+    position: absolute;
+    top: 64%;
+    transform: translateX(-883%)
+  }
+
+  .text_1{
+    position: absolute;
+     position: absolute;
+    top: 34%;
+    left: 12%;
+    width: 45%
+  }
+
+  .path_line{
+    position: absolute;
+    top: 15%
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+  .top_part{
+    top: 4%
+  }
+
+  .row_menu{
+    transform: translateY(3.4%) translateX(20%)
+  }
+
+  .menu_name{
+    width: 10px;
+    position: absolute;
+    right: 30%
+
+  }
+
+  div.menu_name{
+    font-size: 23px;
+  }
+
+  footer.footer{
+   width: 70%;
+   transform: scale(1.46) translateY(60%) translateX(0.5%)
+  }
+
+  .navigation{
+    transform: translateX(-40%)
+  }
+
+  .crossimg{
+    transform: translateX(-30%) translateY(50%)
+  }
+
+  .text_1{
+    width: 70%;
+    top: 20%;
+    left: 10%
+  }
+
+  .path_line{
+    transform: scale(1);
+    top: 40%;
+    left: -60%
+  }
