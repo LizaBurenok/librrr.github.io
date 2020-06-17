@@ -114,26 +114,23 @@
 
   .img{
    transform: translateY(25%) rotate(-90deg) scale(.52);
-   left: 23%
+
   }
 
   .row_menu{
-    transform: translateX(-30%)
+    transform: translateX(32%)
   }
-
   .top_part span{
     font-size: 36px;
   }
 
   .top_part{
-    transform: scale(.97) translateX(-3%)
+    transform: scale(.97) translateX(5%)
   }
 
   footer.footer{
     position: absolute;
-    bottom: 9.5%;
     transform: scale(1.2);
-    right: 23%;
   }
 
   .txt_block1{
@@ -150,6 +147,7 @@
     width: 19%;
   }
 }
+
 
 /*@media (min-width: 1440px){
   .main_page{
